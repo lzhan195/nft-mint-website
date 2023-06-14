@@ -6,7 +6,6 @@
         "@chakra-ui/react": "^2.7.0",
         "@emotion/react": "^11.11.1",
         "@emotion/styled": "^11.11.0",
-        "@ethersproject/bignumber": "^5.7.0",
         "@openzeppelin/contracts": "^4.9.1",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^14.0.0",
@@ -18,7 +17,7 @@
         "path": "^0.12.7",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-scripts": "4.0.3",
+        "react-scripts": "^5.0.1",
         "stream": "^0.0.2",
         "web-vitals": "^3.3.2",
         "webpack": "^5.86.0"
