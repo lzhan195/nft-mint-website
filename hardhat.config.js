@@ -18,7 +18,3 @@ module.exports = {
         apiKey: process.env.REACT_APP_ETHERSCAN_KEY,
     },
 }
-
-const REACT_APP_SEPOLIA_RPC_URL = process.env.REACT_APP_SEPOLIA_RPC_URL
-const REACT_APP_PRIVATE_KEY = process.env.REACT_APP_PRIVATE_KEY
-const REACT_APP_ETHERSCAN_KEY = process.env.REACT_APP_ETHERSCAN_KEY
