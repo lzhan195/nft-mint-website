@@ -24,14 +24,14 @@
         "webpack": "^5.86.0"
     },
     "resolutions": {
-    "react-error-overlay": "6.0.9"
-},
+        "react-error-overlay": "6.0.9"
+    },
     "scripts": {
-	     "preinstall": "npx npm-force-resolutions",
-        "start": "DISABLE_ESLINT_PLUGIN=true react-scripts --openssl-legacy-provider start",
-        "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
-        "test": "DISABLE_ESLINT_PLUGIN=true react-scripts test",
-        "eject": "DISABLE_ESLINT_PLUGIN=true react-scripts eject"
+        "preinstall": "npx npm-force-resolutions",
+        "start": "SKIP_PREFLIGHT_CHECK=true react-scripts --openssl-legacy-provider start",
+        "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
+        "test": "SKIP_PREFLIGHT_CHECK=true react-scripts test",
+        "eject": "SKIP_PREFLIGHT_CHECK=true react-scripts eject"
     },
     "eslintConfig": {
         "extends": [

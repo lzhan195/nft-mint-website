@@ -2,7 +2,7 @@ import { boolean } from "hardhat/internal/core/params/argumentTypes"
 import React from "react"
 
 const NavBar = ({ accounts, setAccounts }) => {
-    const isConnected = accounts[0] == null
+    const isConnected = Boolean(accounts[0])
 
     async function connectAccount() {
         if (window.ethereum) {
